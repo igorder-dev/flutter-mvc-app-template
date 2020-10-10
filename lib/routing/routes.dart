@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:mvc_flutter_app_template/app/screens/counter_settings/counter_settings.bindings.dart';
-import 'package:mvc_flutter_app_template/app/screens/counter_settings/counter_settings.view.dart';
-import 'package:mvc_flutter_app_template/app/screens/home/home_screen.view.dart';
-import 'package:mvc_flutter_app_template/app/screens/settings/setting_screen.bindings.dart';
-import 'package:mvc_flutter_app_template/app/screens/settings/settings_screen.view.dart';
+import '../app/screens/counter_settings/counter_settings.bindings.dart';
+import '../app/screens/counter_settings/counter_settings.view.dart';
+import '../app/screens/home/home_screen.view.dart';
+import '../app/screens/settings/setting_screen.bindings.dart';
+import '../app/screens/settings/settings_screen.view.dart';
 
 class AppRoutes {
   static const INITIAL = AppRoutes.HOME;

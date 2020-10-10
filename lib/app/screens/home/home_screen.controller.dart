@@ -1,8 +1,8 @@
 import 'package:id_mvc_app_framework/config.dart';
 import 'package:id_mvc_app_framework/framework.dart';
-import 'package:mvc_flutter_app_template/config/config.dart';
-import 'package:mvc_flutter_app_template/model/counter.dart';
-import 'package:mvc_flutter_app_template/routing/routes.dart';
+import '../../../config/config.dart';
+import '../../../model/counter.dart';
+import '../../../routing/routes.dart';
 
 class HomeScreenController extends MvcController {
   get counter => Counter().value;

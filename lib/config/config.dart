@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:id_mvc_app_framework/config.dart';
 import 'package:id_mvc_app_framework/framework.dart';
-import 'package:mvc_flutter_app_template/routing/routes.dart';
-import 'package:mvc_flutter_app_template/themes/themes.dart';
+import '../routing/routes.dart';
+import '../themes/themes.dart';
 
 const String config_json_file = 'config.json';
 

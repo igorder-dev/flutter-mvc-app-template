@@ -1,9 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:id_mvc_app_framework/framework.dart';
-import 'package:mvc_flutter_app_template/app/widgets/counter_slider/counter_slider.controller.dart';
-import 'package:mvc_flutter_app_template/themes/themes.dart';
+import '../../../app/widgets/counter_slider/counter_slider.controller.dart';
+import '../../../themes/themes.dart';
 
 enum CounterSliderOrient { horizontal, vertical }
 

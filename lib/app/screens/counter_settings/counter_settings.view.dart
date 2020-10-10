@@ -1,14 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:id_mvc_app_framework/framework.dart';
-import 'package:mvc_flutter_app_template/app/screens/counter_settings/counter_settings.controller.dart';
+import '../../../app/widgets/app_scaffold.dart';
+import 'counter_settings.controller.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
 class CounterSettings extends MvcScreen<CounterSettingsController> {
   @override
   Widget defaultScreenLayout(
       ScreenParameters screenParameters, CounterSettingsController controller) {
-    return _scaffold(
+    return AppScaffold(
+      title: 'Counter Settings',
       body: _settingsForm(screenParameters),
     );
   }
@@ -89,13 +91,5 @@ class CounterSettings extends MvcScreen<CounterSettingsController> {
         decoration: InputDecoration(
           labelText: labelText,
         ),
-      );
-
-  Widget _scaffold({Widget body}) => Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text('Counter Settings'),
-        ),
-        body: body,
       );
 }

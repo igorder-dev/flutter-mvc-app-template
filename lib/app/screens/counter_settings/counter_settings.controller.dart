@@ -1,6 +1,6 @@
 import 'package:id_mvc_app_framework/framework.dart';
 import 'package:id_mvc_app_framework/model.dart';
-import 'package:mvc_flutter_app_template/model/counter.dart';
+import '../../../model/counter.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
 class CounterSettingsController extends MvcController {

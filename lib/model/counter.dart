@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:id_mvc_app_framework/config.dart';
 import 'package:id_mvc_app_framework/model.dart';
 import 'package:get/get.dart';
-import 'package:mvc_flutter_app_template/config/config.dart';
-import 'package:mvc_flutter_app_template/themes/themes.dart';
+import '../config/config.dart';
+import '../themes/themes.dart';
 
 enum ValueRangeCheck { ok, belowMin, aboveMax }
 

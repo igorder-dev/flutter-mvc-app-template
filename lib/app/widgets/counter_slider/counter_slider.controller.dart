@@ -1,5 +1,5 @@
 import 'package:id_mvc_app_framework/framework.dart';
-import 'package:mvc_flutter_app_template/model/counter.dart';
+import '../../../model/counter.dart';
 
 class CounterSliderController extends MvcController {
   Counter get counter => Counter();

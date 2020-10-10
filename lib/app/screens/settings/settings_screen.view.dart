@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:id_mvc_app_framework/framework.dart';
+import '../../../app/widgets/app_scaffold.dart';
 
 import 'settings_screen.controller.dart';
 
@@ -8,7 +9,8 @@ class SettingScreen extends MvcScreen<SettingScreenController> {
   @override
   Widget defaultScreenLayout(
       ScreenParameters screenParameters, SettingScreenController controller) {
-    return _scaffold(
+    return AppScaffold(
+      title: 'Settings',
       body: ListView(
         children: [
           ListTile(
@@ -27,12 +29,4 @@ class SettingScreen extends MvcScreen<SettingScreenController> {
       ),
     );
   }
-
-  Widget _scaffold({Widget body}) => Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text('Settings'),
-        ),
-        body: body,
-      );
 }

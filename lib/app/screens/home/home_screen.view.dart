@@ -2,9 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:id_mvc_app_framework/framework.dart';
-import 'package:mvc_flutter_app_template/app/widgets/counter_slider/counter_slider.view.dart';
-import 'package:mvc_flutter_app_template/config/config.dart';
-import 'package:mvc_flutter_app_template/themes/themes.dart';
+import '../../../app/widgets/app_scaffold.dart';
+import '../../../app/widgets/counter_slider/counter_slider.view.dart';
+import '../../../config/config.dart';
+import '../../../themes/themes.dart';
 
 import 'home_screen.controller.dart';
 
@@ -64,17 +65,14 @@ class HomeScreen extends MvcScreen<HomeScreenController> {
         ),
       ];
 
-  Widget _scaffold({Widget body}) => Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text(AppConfig.appSettings.title),
-          actions: [
-            IconButton(
-              icon: Icon(Icons.settings),
-              onPressed: controller.goToSettingsView,
-            )
-          ],
-        ),
+  Widget _scaffold({Widget body}) => AppScaffold(
+        title: AppConfig.appSettings.title,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.settings),
+            onPressed: controller.goToSettingsView,
+          )
+        ],
         body: body,
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:id_mvc_app_framework/config.dart';
 import 'package:id_mvc_app_framework/framework.dart';
-import 'package:mvc_flutter_app_template/config/config.dart';
+import '../../../config/config.dart';
 
 class ThemesListController extends MvcController {
   Key unikey;

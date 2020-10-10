@@ -134,49 +134,7 @@ packages:
       name: get
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.12.1"
-  get_core:
-    dependency: transitive
-    description:
-      name: get_core
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.12.0"
-  get_instance:
-    dependency: transitive
-    description:
-      name: get_instance
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.12.0"
-  get_navigation:
-    dependency: transitive
-    description:
-      name: get_navigation
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.12.0"
-  get_rx:
-    dependency: transitive
-    description:
-      name: get_rx
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.12.0"
-  get_state_manager:
-    dependency: transitive
-    description:
-      name: get_state_manager
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.12.0"
-  get_utils:
-    dependency: transitive
-    description:
-      name: get_utils
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.12.0"
+    version: "3.13.2"
   http:
     dependency: transitive
     description:
@@ -194,9 +152,11 @@ packages:
   id_mvc_app_framework:
     dependency: "direct main"
     description:
-      path: "../id_mvc_app_framework"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: b99de250d52fbdf88d0f964f8e42b37dace6aa07
+      url: "https://github.com/igorder-dev/flutter-mvc-framework.git"
+    source: git
     version: "0.0.1"
   intl:
     dependency: transitive
